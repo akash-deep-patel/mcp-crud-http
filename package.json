@@ -1,0 +1,21 @@
+{
+  "name": "mcp-crud-http",
+  "version": "1.0.0",
+  "main": "main.py",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/server.js",
+    "start-mcp": "node dist/server-mcp.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "mysql2": "^3.10.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
