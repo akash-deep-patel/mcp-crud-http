@@ -3,8 +3,8 @@ from fastmcp import FastMCP
 
 conn = pymysql.connect(
     host="localhost",
-    user="root",
-    password="root",
+    user="username",
+    password="password",
     db="employee_db",
     cursorclass=pymysql.cursors.DictCursor
 )

@@ -8,8 +8,8 @@ import { z } from "zod";
 
 const pool = mysql.createPool({
   host: "localhost",
-  user: "root",
-  password: "root",
+  user: "username",
+  password: "password",
   database: "employee_db",
   waitForConnections: true,
   connectionLimit: 10,
