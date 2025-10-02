@@ -1,3 +1,5 @@
 node_modules/*
 py-version/.venv/*
 dist/*
+py-version/.env
+.vscode/launch.json
